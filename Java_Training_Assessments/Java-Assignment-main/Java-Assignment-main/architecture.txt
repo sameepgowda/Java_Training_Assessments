@@ -1,0 +1,26 @@
+Architecture and design of the code:
+
+To start with, all the commands are stored as strings.
+
+Two separate hashmaps are created, one to store the '{url,uniquekey}' and the other one to store the '{url,count}'.
+An infinite for loop is created so that after the execution of each command, it asks to enter the next command and the loop breaks 
+if and only if the entered command is 'exit' in which case the program terminates.
+
+Inside the for loop, there are cases with if conditions for each command.
+
+If the entered command is 'storeurl', it takes the url as input from user, creates an unique short key from the url itself using the '.substring()' function
+for the particular url and stores both the url and the short key in the hashmap 'keymap' using '.put()' function in the form of {url,shortkey}.
+Also it stores the url and the count in the other hashmap 'countmap' in the form of {url,count}. Initially count is equal to 0.
+
+If the entered command is 'get', it takes the url as input from user, prints the unique short key for the particular url and increments the value of count in the 
+'countmap' by 1 using '.replace()' function.
+
+If the entered command is 'count', it takes the url as input from user, prints the latest usage count of the particular url from 'countmap' by using '.get()' function.
+
+If the entered command is 'list' it simply converts the elements of the hashmap 'countmap' using '.toString()' function and prints it in the form of {url1=count1, url2=count2,.....}.
+
+At the end of every if statement, there is a 'continue' statement so that the loop begins from the top all over again 
+after the execution of any command so it will ask to type in the next command. If the entered command is 'exit' it comes out of the loop and terminates.
+
+
+ 

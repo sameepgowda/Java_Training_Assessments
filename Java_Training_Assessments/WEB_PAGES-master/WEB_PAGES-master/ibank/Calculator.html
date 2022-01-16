@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function rate(){
+      var prin = document.getElementById("principal").value;
+      var t = document.getElementById("time").value;
+      const inty = (18/100)*prin;
+      const r = (inty*100)/(prin*t);
+      alert("your rate of interest is"+" "+r+"%");
+    }
+  </script>
+  <link rel="stylesheet" href="calculator.css">
+    <title></title>
+</head>
+<body class="body">
+
+    
+       <div class="one"><img src="buttons.PNG"></div>
+       <div class="two"><img src="bank.PNG" height="80px" width="200px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="span">
+        
+      </span></div> 
+       <div class="three">Rate of interest calculator</div>
+
+      <div class="four">
+        <div class="calc">
+        <div> <label>Enter the loan amount</label>&nbsp;&nbsp;&nbsp;&nbsp;<input id="principal" type="number"></div>
+        <br>
+        <div><label>Enter the period in years</label><input id="time" type = "number"></div>
+        <br>
+        <div id="roi"><button onclick="rate()">Calculate rate of interest</button></div>
+        <div><label></label></div>
+        <div class="extra">hi</div>
+        </div>
+          </div>
+</body>
+</html>

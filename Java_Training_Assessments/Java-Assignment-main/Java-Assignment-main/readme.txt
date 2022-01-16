@@ -1,0 +1,12 @@
+--> Once you are in the directory containing the java file, compile the program by typing 'javac urldatabase.java' 
+--> Type 'java urldatabase' to run the program
+--> It will ask you to enter the command. Choose a command from the following list of commands: storeurl, get, count, list, exit
+--> If you enter the command 'storeurl', it will ask you to enter the url that you want to store. Enter the url and it's stored in the database.
+--> Now, it will again ask you to enter the command.
+--> If you enter the command 'get', it will ask you to enter the url that you need. Once you enter the url, it will print the unique short key for the particular url you entered.
+--> Now, it will again ask you to enter the command.
+--> If you enter the command 'count', it will ask you to enter the url for which you want the latest usage count. It will print the latest usage count for the particular url you entered.
+--> Now, it will again ask you to enter the command.
+--> If you enter the command 'list', it will just print all the urls and their latest usage counts in order.
+--> Now, it will again ask you to enter the command. You can choose to enter any of the above mentioned commands and keep on doing so and will keep on asking you to enter the next command.
+--> Once you enter the command 'exit', the program will terminate. 

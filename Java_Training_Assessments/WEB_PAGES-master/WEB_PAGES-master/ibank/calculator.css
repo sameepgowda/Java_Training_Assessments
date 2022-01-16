@@ -1,0 +1,46 @@
+.body{
+    display: grid;
+    grid-template-rows: 30px 85px 35px 500px;
+
+}
+body{
+    border-radius: 15px;
+}
+.one{
+    background-color:#E2E2E2;
+
+}
+.two{
+    background-color: #EBF5FB;
+}
+
+
+.three{
+    background-color: #2E86C1;
+    color: #E2FBFB;
+    text-align: center;
+font-size: 24px;
+}
+
+.calc{
+    border-left-style: solid;
+    border-left-color: lightslategray;
+    border-left-width: 1.5px;
+    border-right-style: solid;
+    border-right-color: lightslategray;
+    border-right-width: 1.5px;
+    border-top-style: solid;
+    border-top-color: lightslategray;
+    border-top-width: 1.5px;
+    border-bottom-style: solid;
+    border-bottom-color: lightslategray;
+    border-bottom-width: 1.5px;
+    color: lightslategrey;
+    margin-top: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30%;
+}
+.extra{
+    color:#FFFFFF ;
+}

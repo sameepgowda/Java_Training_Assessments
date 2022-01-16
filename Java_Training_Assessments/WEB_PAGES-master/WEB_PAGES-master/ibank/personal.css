@@ -1,0 +1,72 @@
+.body{
+    display: grid;
+    grid-template-rows: 30px 85px 35px 500px;
+
+}
+body{
+    border-radius: 15px;
+}
+.one{
+    background-color:#E2E2E2;
+
+}
+.two{
+    background-color: #EBF5FB;
+}
+
+
+.three{
+    background-color: #2E86C1;
+    color: #E2FBFB;
+    text-align: center;
+font-size: 24px;
+}
+.id{
+    margin-top:10px;
+}
+.pass{
+    margin-top: 10px;
+}
+
+.button{
+    margin-top: 10px;
+ margin-left: 100px;
+ margin-bottom: 10px;
+}
+.four{
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+}
+.right{
+
+    background-color: #73AED6;
+
+}
+.sec{
+    background-color:#73AED6 ;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 254, 177);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    animation: blink 2s linear infinite;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+.click{
+    color: rgb(255, 254, 177);
+    margin-top: 40px;
+    animation: blink 2s linear infinite;
+    font-size: 18px;
+}
+.one{
+    background-color:#FFFFFF ;
+}
+

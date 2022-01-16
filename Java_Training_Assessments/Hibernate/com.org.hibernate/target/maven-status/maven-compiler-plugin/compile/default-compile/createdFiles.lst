@@ -1,0 +1,5 @@
+hibernate\util\HibernateUtil.class
+hibernateDemo\com\org\hibernate\Customer.class
+hibernateDemo\com\org\hibernate\Vendor.class
+hibernateDemo\com\org\hibernate\App.class
+hibernateDemo\com\org\hibernate\Main.class
